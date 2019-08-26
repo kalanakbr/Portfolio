@@ -1,0 +1,23 @@
+package.json
+    "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+
+    -w =>watch scss
+    -o => output
+    --recursive => auto create css
+
+.gitignore
+    node_modules
+  CMD=> 
+    git init
+    git add .
+    git commit -m 'initial'
+
+select two ends => shift+click
+copy serverl times=> shift+alt+down
+
+normal h1 =16px
+1rem =16px
+
+vh=view height (display divide into 100 horizontal line and take it number of lines.as example 20vh)
+
