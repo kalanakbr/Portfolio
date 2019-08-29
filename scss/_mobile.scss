@@ -42,7 +42,9 @@
     }
 
     .menu-branding {
-        height: 25vh;
+        margin-left: 38%;
+        height: 205px;
+        width: 205px;
         transform: translate3d(100%, 0, 0);
     }
 
@@ -66,11 +68,23 @@
 @include mediaSm {
     main#home h1 {
         margin-top: 10vh;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     main#home h2 {
         font-size: 1rem;
+    }
+
+    .menu-nav {
+        height: 75vh;
+        font-size: 1rem;
+    }
+
+    .menu-branding {
+        height: 25vh;
+        margin: 0 25%; // 0 90px
+        height: 205px;
+        width: 205px;
     }
 
     .projects {

@@ -269,7 +269,9 @@ main {
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    margin-left: 38%;
+    height: 205px;
+    width: 205px;
     transform: translate3d(100%, 0, 0); }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
@@ -280,8 +282,16 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh;
-    font-size: 3.5rem; }
+    font-size: 2.5rem; }
   main#home h2 {
     font-size: 1rem; }
+  .menu-nav {
+    height: 75vh;
+    font-size: 1rem; }
+  .menu-branding {
+    height: 25vh;
+    margin: 0 25%;
+    height: 205px;
+    width: 205px; }
   .projects {
     grid-template-columns: 1fr; } }
