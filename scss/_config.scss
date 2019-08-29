@@ -1,4 +1,4 @@
-$primary-color:#444;
+$primary-color:rgb(94, 94, 94);
 $secondary-color:#ee921a;
 $show-home-image: true;
 $home-image:url(../img/background.jpg);
@@ -26,6 +26,17 @@ $background-opacity:0.8;
                 z-index: -1;
             }
         }
+    }
+}
+
+//Set text color
+@function set-text-color($color) {
+    @if(lightness($color) > 40) {
+        @return #000;
+    }
+
+    @else {
+        @return #fff;
     }
 }
 

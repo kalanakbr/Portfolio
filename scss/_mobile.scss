@@ -38,11 +38,15 @@
         transform: translate3d(100%, 0, 0);
     }
 
-    .portrait {
-        align-content: center;
-        background: url('../img/portrait.jpg');
-        width: 180px;
-        height: 180px;
+    .about-info {
+        grid-template-areas:
+            'bioimage'
+            'bio'
+            'job1'
+            'job2'
+            'job3';
+
+        grid-template-columns: 1fr;
     }
 }
 
