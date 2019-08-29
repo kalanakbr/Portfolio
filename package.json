@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-
   },
   "author": "Kalana Rathnayake",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "typed.js": "^2.0.10"
   }
 }
