@@ -291,7 +291,6 @@ main {
   .menu-branding {
     height: 25vh;
     margin: 0 25%;
-    height: 205px;
-    width: 205px; }
+    width: 200px; }
   .projects {
     grid-template-columns: 1fr; } }
